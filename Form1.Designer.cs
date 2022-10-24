@@ -241,8 +241,8 @@
             // pnTextEdit
             // 
             this.pnTextEdit.BackColor = System.Drawing.Color.White;
-            this.pnTextEdit.Controls.Add(this.pnTools);
             this.pnTextEdit.Controls.Add(this.txtTextEdit);
+            this.pnTextEdit.Controls.Add(this.pnTools);
             this.pnTextEdit.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnTextEdit.Location = new System.Drawing.Point(184, 0);
             this.pnTextEdit.Name = "pnTextEdit";
@@ -303,9 +303,9 @@
             // 
             this.txtTextEdit.BackColor = System.Drawing.Color.White;
             this.txtTextEdit.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.txtTextEdit.Location = new System.Drawing.Point(0, 0);
+            this.txtTextEdit.Location = new System.Drawing.Point(0, 40);
             this.txtTextEdit.Name = "txtTextEdit";
-            this.txtTextEdit.Size = new System.Drawing.Size(616, 540);
+            this.txtTextEdit.Size = new System.Drawing.Size(616, 500);
             this.txtTextEdit.TabIndex = 3;
             this.txtTextEdit.Text = "";
             // 
@@ -359,9 +359,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(800, 540);
+            this.Controls.Add(this.pnTextEdit);
             this.Controls.Add(this.pnMain);
             this.Controls.Add(this.pnColorEdit);
-            this.Controls.Add(this.pnTextEdit);
             this.Controls.Add(this.pnLeftSide);
             this.Cursor = System.Windows.Forms.Cursors.Default;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));

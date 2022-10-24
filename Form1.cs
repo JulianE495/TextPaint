@@ -207,7 +207,6 @@ namespace TextPaint
                 fontDlg.MaxSize = 36;
                 fontDlg.MinSize = 10;
                 txtColorEdit.Font = fontDlg.Font;
-              
             }
         }
     }
